@@ -1,0 +1,92 @@
+[
+{
+	"message":"hi"
+	,"response":"Hello Sir, What are you looking for?\n Market Strategy, Brand Experience or Marketing OutSourcing"
+},
+
+{
+	"message":"What is your name:",
+	"response":"I'm Mr. Stud, How can I help you? "
+},
+
+{
+	"message": "Marketing Outsourcing",
+	"response": "which of the following marketing activities would you be interested in pursuing? Design, Content search and Marketing, Social Media Programming, Communication and PR, Demand Generation, Enterprise Mobility"
+},
+
+
+{
+	"message": "Design",
+	"response": "Great to hear! Just a couple of more question."
+},
+
+{
+	"message": "xxx@gmail.com",
+	"response": "Thank you sir, Our representative will contact you shortly"
+},
+
+{
+	"message": "Tell me about theHigherpitch",
+	"response": "We are a performance marketing company that specialization in creating digital experience for enterprise."
+},
+
+
+{
+	"message": "Tell me about you.",
+	"response": "We are a performance marketing company that specialization in creating digital experience for enterprise."
+},
+
+
+{
+	"message": "Who are you?",
+	"response": "We are a performance marketing company that specialization in creating digital experience for enterprise."
+},
+{
+	"message": "How do you increase our sells?",
+	"response": "We specialize in providing increased efficiencies in marketing by integrating digital and conventional method."
+},
+
+{
+	"message": "What's your Marketing Strategy?",
+	"response": "Our teams do a through audit of the 'as-is' state of your marketing ecosystem and put together a comprehensive report that is benchmarked with what you need to do against your competition and mapped with your customer journey."
+},
+
+{
+	"message": "",
+	"response": ""
+},
+
+{
+	"message": "how would you do branding for us",
+	"response": "We bring in rich experience in brand creation and rebranding of enterprises."
+},
+
+{
+	"message": "What type of Marketing and digital Process Outsourcing you provide?",
+	"response": "We help identify marketing and digital functions where we can bring in high levels of operational efficiencies."
+},
+
+{
+	"message": "Why should we collaborate with you?",
+	"response": "Our program managers work closely with our digital teams to guarantee excellence in delivery, and in coordination with your in-house marketing, ensure these processes smoothly gel into your overall marketing programs"
+},
+
+{
+	"message": "Why should we outsource you for our marketing?",
+	"response": "Our program managers work closely with our digital teams to guarantee excellence in delivery, and in coordination with your in-house marketing, ensure these processes smoothly gel into your overall marketing programs"
+},
+
+
+{
+	"message": "What other services you are offering?",
+	"response": "UI and Design, Social Marketing, Content Engineering, Marketing, Media&PR, Mobile Application Development, Intelligent Customer Help Desk"
+},
+
+{
+	"message": "What's your location?",
+	"response": "303 Tower B, Logix Technova, plot A4 sector 132, Expressway Noida-India"
+}
+
+
+
+]
