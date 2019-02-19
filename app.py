@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 #import aiml
 import os
 from tf_idf import *
+import time
 # kernel = aiml.Kernel()
 
 # def load_kern(forcereload):
@@ -39,6 +40,7 @@ def ask():
 	bot_response = previous_chats(message)
 	#print(type(message))
 	#return message
+	time.sleep(3)
 	return jsonify({'status':'OK','answer':bot_response})
 
 
