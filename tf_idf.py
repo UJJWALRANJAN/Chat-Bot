@@ -77,7 +77,7 @@ def talk_to_cb_primary(test_set_sentence, minimum_score , json_file_path , tfidf
                 break
 
 
-#def previous_chats(query):
+# def previous_chats(query):
 #    minimum_score = 0.7
 #    file = "data/previous_chats.json"
 #    tfidf_vectorizer_pikle_path = "data/previous_tfidf_vectorizer.pickle"
@@ -123,7 +123,7 @@ def train_chat(json_file_path, tfidf_vectorizer_pikle_path , tfidf_matrix_train_
 
 
 def previous_chats(query):
-    minimum_score = 0.7
+    minimum_score = 0.6
     file = "previous_chats.json"
     tfidf_vectorizer_pikle_path = "data/previous_tfidf_vectorizer.pickle"
     tfidf_matrix_train_path = "data/previous_tfidf_matrix_train.pickle"

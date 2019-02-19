@@ -10,7 +10,7 @@
 },
 
 {
-	"message": "Marketing Outsourcing",
+	"message": "I am looking for Marketing Outsourcing",
 	"response": "which of the following marketing activities would you be interested in pursuing? Design, Content search and Marketing, Social Media Programming, Communication and PR, Demand Generation, Enterprise Mobility"
 },
 
@@ -47,13 +47,13 @@
 },
 
 {
-	"message": "What's your Marketing Strategy?",
+	"message": "What's your Marketing Strategy",
 	"response": "Our teams do a through audit of the 'as-is' state of your marketing ecosystem and put together a comprehensive report that is benchmarked with what you need to do against your competition and mapped with your customer journey."
 },
 
 {
-	"message": "",
-	"response": ""
+	"message": "I am looking for Marketing Strategy",
+	"response": "Our teams do a through audit of the 'as-is' state of your marketing ecosystem and put together a comprehensive report that is benchmarked with what you need to do against your competition and mapped with your customer journey."
 },
 
 {
@@ -85,8 +85,12 @@
 {
 	"message": "What's your location?",
 	"response": "303 Tower B, Logix Technova, plot A4 sector 132, Expressway Noida-India"
-}
+},
 
+{
+	"message": "Where it is located?",
+	"response": "303 Tower B, Logix Technova, plot A4 sector 132, Expressway Noida-India"
+}
 
 
 ]

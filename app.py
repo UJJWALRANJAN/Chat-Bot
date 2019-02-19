@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-import aiml
+#import aiml
 import os
 from tf_idf import *
 # kernel = aiml.Kernel()
@@ -16,7 +16,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
 	#load_kern(False)
-	return render_template('chat.html')
+	return render_template('index.html')
 
 @app.route("/ask", methods=['POST','GET'])
 def ask():
@@ -40,6 +40,8 @@ def ask():
 	#print(type(message))
 	#return message
 	return jsonify({'status':'OK','answer':bot_response})
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
