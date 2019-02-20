@@ -13,6 +13,19 @@ import time
 # 		kernel.saveBrain("bot_brain.brn")
 #
 
+import MySQLdb
+from MySQLdb import escape_string as thwart
+def connection():
+	conn = MySQLdb.connect(host="localhost",
+	                       user = "root",
+	                       passwd = "",
+	                       db = "thpbot")
+	c = conn.cursor()
+	print("connection created")
+	return c, conn
+
+
+
 app = Flask(__name__)
 @app.route("/")
 def hello():
@@ -38,9 +51,20 @@ def ask():
 		#bot_response = kernel.respond(message)
 		# print bot_response
 	bot_response = previous_chats(message)
+	try:
+		c,conn = connection()
+		# sql="""INSERT INTO messages(msg_from_user,msg_to_user) VALUES('%s')""" % message
+		print("below query")
+		c.execute("INSERT INTO messages(msg_from_user,msg_to_user) VALUES(%s,%s)",(thwart(message),thwart(bot_response)))
+		print("i m in try block")
+		conn.commit()
+		print("inserted")
+		c.close()
+	except Exception as e:
+		print(e)
 	#print(type(message))
 	#return message
-	time.sleep(3)
+	time.sleep(1)
 	return jsonify({'status':'OK','answer':bot_response})
 
 
